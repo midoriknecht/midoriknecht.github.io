@@ -26,7 +26,7 @@
     border-bottom: 1px solid seashell;
     box-shadow: 0 5px 20px 0 hsla(206, 85%, 5%);
     height: 69px;
-    background-color: hsl(0, 0%, 11%);
+    background-color: hsl(213, 18%, 25%);
     padding: 9.5px 10px;
     top: 0;
     z-index: 1;
@@ -81,7 +81,7 @@
   }
   
   .mission-text {
-    background-color: hsl(0, 0%, 11%);
+    background-color: hsl(329, 40%, 12%);
     margin: auto;
     padding: .75rem 10rem;
     font-size: 32px;
@@ -110,7 +110,7 @@
     border-radius: 32px;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 30%, 21%);
+    background-color: hsl(256, 11%, 54%);
   }
 
   /* .project-container a {
@@ -167,7 +167,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 30%, 21%);
+    background-color: hsl(213, 17%, 41%);
   }
 
   .item-border p {

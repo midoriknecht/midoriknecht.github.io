@@ -81,7 +81,7 @@
   }
   
   .mission-text {
-    background-color: hsl(329, 40%, 12%);
+    background-color: hsl(213, 17%, 41%);
     margin: auto;
     padding: .75rem 10rem;
     font-size: 32px;
@@ -167,7 +167,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsl(213, 17%, 41%);
+    background-color: hsl(329, 40%, 12%);
   }
 
   .item-border p {

@@ -1,243 +1,243 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-    scroll-padding-top: 4.75rem;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    padding-top: 45px;
-    color: hsl(0, 0%, 71%);
-    background-color: hsl(46, 45%, 94%);
-    /* background-color: gree; */
-    opacity: 0.9;
-    text-align: center;
-  }
-  
-  /* Header */
-  
-  header {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid seashell;
-    box-shadow: 0 5px 20px 0 hsla(206, 85%, 5%);
-    height: 69px;
-    background-color: hsl(213, 18%, 25%);
-    padding: 9.5px 10px;
-    top: 0;
-    z-index: 1;
-  }
-  
-  /* Navigation */
-  
-  nav {
-    width: 100%;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .profile {
-    height: 50px;
-    margin-left: 10px;
-    border-radius: 6px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-padding-top: 4.75rem;
+}
 
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding-top: 45px;
+  color: hsl(0, 0%, 71%);
+  background-color: hsl(46, 45%, 94%);
+  /* background-color: gree; */
+  opacity: 0.9;
+  text-align: center;
+}
 
-  nav ul {
-    display: inline-flex;
-    list-style: none;
-    line-height: 50px;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    transition: color 500ms ease-out 0s;
-    color: seashell;
-  }
-  
-  nav a:hover {
-    color: hsl(0, 30%, 41%);;
-  }
-  
-  /* Mission Section */
-  
-  .background-image {
-    width: 90%;
-    height: 400px;
-    background-image: url("file:///Users/midoriknecht/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/297C0BD2-2B35-42E8-BD42-10B24BCF6E5A/IMG_5306.tiff");
-    background-size: cover;
-    background-position: top;
-    margin: 30px auto;
-    display: flex;
-  }
-  
-  .mission-text {
-    background-color: hsl(213, 17%, 41%);
-    margin: auto;
-    padding: .75rem 10rem;
-    font-size: 32px;
-    opacity: .85;
-  }
-  
-  .mission-text h1 {
-    font-size: 1.5rem;
-    padding-bottom: 1.2rem;
-  }
-  
-  /* Project Section */
-  
-  .project-container {
-    /* width: 1000px; */
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-  }
-  
-  #projects .item-border {
-    margin: 1rem 1rem;
-    padding: 1rem;
-    border-radius: 32px;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(256, 11%, 54%);
-  }
+/* Header */
 
-  /* .project-container a {
-    width: 300px;
-    height: 200px;
-  } */
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  box-shadow: 0 5px 20px 0 hsla(206, 85%, 5%);
+  height: 69px;
+  background-color: hsl(213, 18%, 25%);
+  padding: 9.5px 10px;
+  top: 0;
+  z-index: 1;
+}
 
-  
-  .project-container img {
-    filter: grayscale(100%);
-    width: 250px;
-    height: 250px;
-    border-radius: 6px;
-    transition: all 500ms ease-out 0s;
-  }
+/* Navigation */
 
-  .project-container img:hover {
-    filter: none;
-    /* width: 250px;
-    height: 250px;
-    border-radius: 6px; */
-  }
+nav {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  .project-container figcaption {
-    display: flex;
-    justify-content: center;
-    padding: 10px 8px 2px 8px;
-  }
-  
-  /*  Blog */
-  #blog h2 {
-    margin: 10px 0px;
-    font-size: 1.75rem;
-  }
+.profile {
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 6px;
 
-  .scroll-container {
-    max-height: 20rem;
-    display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    overflow-y: scroll;
-    scroll-behavior: smooth;  
-    margin: 0 auto;
-    width: 60%;
-    /* padding: 1rem 20%; */
-  }
+}
 
-  #blog .item-border {
-    width: 100%;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 32px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(329, 40%, 12%);
-  }
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  line-height: 50px;
+}
 
-  .item-border p {
-    padding: .5rem;
-    font-size: 1rem;
-  }
+nav li {
+  margin: 0 10px;
+}
 
-  .blog-footer {
-    /* padding-top: 2rem; */
-  }
+nav a {
+  text-decoration: none;
+  transition: color 500ms ease-out 0s;
+  color: seashell;
+}
 
-  /* Locations
-  .background-location {
-    width: 90%;
-    height: 500px;
-    background-image: url("../images/hamilton-logo.jpeg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    margin: 30px auto;
-    padding: 30px 0;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  } 
-  
-  .location-title {
-    display: block;
-    text-align: center;
-    padding: 15px;
-  }
-  
-  .location-card {
-    width: 300px;
-    height: 250px;
-    background-color: black;
-    display: inline-flex;
-    flex-flow: row wrap;
-    padding: 20px;
-    margin-right: 40px;
-    justify-content: center;
-    align-content: space-around;
-    line-height: 1.9;
-  }
-  
-  .location-card:last-child {
-    margin-right: 0;
-  }
-  
-  .location-card span {
-    font-weight: bold;
-  }
-  
-  .location-card p {
-    font-size: 22px;
-    font-weight: 300;
-  }
-  */
-  
-  /*  Footer */
-  
-  footer {
-    margin: 2rem 0rem;
-    /* height: 200px; */
-    font-size: 1rem;
-    /* line-height: 2.5; */
-  }
-  
-  /* .copyright {
-    text-align: left;
-    padding-left: 20px;
-  }
-   */
+nav a:hover {
+  color: hsl(0, 30%, 41%);;
+}
+
+/* Mission Section */
+
+.background-image {
+  width: 90%;
+  height: 400px;
+  background-image: url("../images/IMG_5306.jpeg");
+  background-size: cover;
+  background-position: top;
+  margin: 30px auto;
+  display: flex;
+}
+
+.mission-text {
+  background-color: hsl(213, 21%, 17% / 71%);
+  margin: auto;
+  padding: .75rem 10rem;
+  font-size: 32px;
+  opacity: .85;
+}
+
+.mission-text h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+/* Project Section */
+
+.project-container {
+  /* width: 1000px; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+#projects .item-border {
+  margin: 1rem 1rem;
+  padding: 1rem;
+  border-radius: 32px;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(256, 11%, 54%);
+}
+
+/* .project-container a {
+  width: 300px;
+  height: 200px;
+} */
+
+
+.project-container img {
+  filter: grayscale(100%);
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+  transition: all 500ms ease-out 0s;
+}
+
+.project-container img:hover {
+  filter: none;
+  /* width: 250px;
+  height: 250px;
+  border-radius: 6px; */
+}
+
+.project-container figcaption {
+  display: flex;
+  justify-content: center;
+  padding: 10px 8px 2px 8px;
+}
+
+/*  Blog */
+#blog h2 {
+  margin: 10px 0px;
+  font-size: 1.75rem;
+}
+
+.scroll-container {
+  max-height: 20rem;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;  
+  margin: 0 auto;
+  width: 60%;
+  /* padding: 1rem 20%; */
+}
+
+#blog .item-border {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(329, 40%, 12%);
+}
+
+.item-border p {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.blog-footer {
+  /* padding-top: 2rem; */
+}
+
+/* Locations
+.background-location {
+  width: 90%;
+  height: 500px;
+  background-image: url("../images/hamilton-logo.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  margin: 30px auto;
+  padding: 30px 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+} 
+
+.location-title {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+.location-card {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  display: inline-flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  margin-right: 40px;
+  justify-content: center;
+  align-content: space-around;
+  line-height: 1.9;
+}
+
+.location-card:last-child {
+  margin-right: 0;
+}
+
+.location-card span {
+  font-weight: bold;
+}
+
+.location-card p {
+  font-size: 22px;
+  font-weight: 300;
+}
+*/
+
+/*  Footer */
+
+footer {
+  margin: 2rem 0rem;
+  /* height: 200px; */
+  font-size: 1rem;
+  /* line-height: 2.5; */
+}
+
+/* .copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+ */
